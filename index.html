@@ -96,7 +96,7 @@
                 content: "This post was created by a malicious site because I was logged in! The attacker used fetch() with credentials."
             };
 
-            fetch('http://localhost:3000/posts/add', {
+            fetch('http://localhost:3000/posts/add', { 
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
